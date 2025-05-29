@@ -1,0 +1,111 @@
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+body{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #ffffff, #fafaff, #f4f5ff, #edf1ff, #e4edff);
+}
+
+.container{
+    padding: 15px;
+}
+.title{
+    margin-bottom: 25px;
+    
+}
+.title > h1{
+    color: #1553e4;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    
+}
+
+.form{
+    background: #fff;
+    padding: 30px 50px 20px 50px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 0px #144BC8;
+    border: 1px solid #144BC8;
+
+}
+.form-content{
+    margin-bottom: 20px;
+}
+
+.form-content > label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.form-content > input{
+    border-radius: 10px;
+    border: 1px solid #144BC8;
+}
+.form-content > input[type="text"], .form-content > input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.0rem;
+
+}
+
+
+.form-content > input#cod_docente{
+    margin-bottom: 15px;
+}
+
+.form-content > input[type="submit"]{
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #144BC8;
+    padding: 10px;
+    background-color: #144BC8;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: 0.10s ease-in-out ;
+
+
+}
+
+.form-content > input[type="submit"]:hover{
+    transition: 0.10s ease-in-out ;
+    background-color: white;
+    border: 2px solid #144BC8;
+    color: #144BC8;
+}
+
+.link-signin{
+    margin-bottom: 10px;
+}
+
+.link-signin > a{
+    display: block;
+    text-align: end;
+    text-decoration: none;
+    font-size: 1.10rem;
+    font-weight: 600;
+}
+
+.link-signin > a:hover{
+    text-decoration: underline;
+
+}
+
+
+.logo-estacio{
+    text-align: center;
+}
+

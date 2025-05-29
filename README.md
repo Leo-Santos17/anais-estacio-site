@@ -1,7 +1,7 @@
 # Anais Estácio
 <p>Este projeto tem como intuito a criação de um repositório de arquivos PDF's de anais referentes a eventos do curso de Análise e Desenvolvimento de Sistemas.</p>
 
-![Esboço do Site](/assets/scheme/front-end_anais_estacio.jpeg)
+![Esboço do Site](/scheme/front-end_anais_estacio.jpeg)
 
 ## Tecnologias
 
@@ -18,30 +18,45 @@
 # Checklist
 
 ## Database
-<<<<<<< HEAD
 - Criar DER (1) [x] 
-=======
 - Criar DER (1) [x]
-- Criar o DB (1) []
->>>>>>> 2ed4b85732d2842050ea9275f2698d920e134c94
+- Criar o DB (1) [x]
+
 
 ## API
-- Criar a API do painel (1) []
-- Criar a API do login/signin (2) []
+- Criar a API do painel (1) [x]
+- Criar a API do login/signin (2) [x]
 
 ## AJAX
-- Criar o AJAX da Home Page (1) []
+- Criar o AJAX da Home Page (1) [x]
 - Criar o AJAX dos filtros do painel (3) []
 
 ## Front-end
-- Criar o front-end do login/signin (2) []
-- Criar o front-end da Home Page (1) []
-- Criar o modal de informações do anais na Home Page (2) []
-- Criar o front-end do painel (1) []
-    - Criar modal do upload de anais (2) []
+- Criar o front-end do login/signin (2) [x]
+- Criar o front-end da Home Page (1) [x]
+- Criar o modal de informações do anais na Home Page (2) [x]
+- Criar o front-end do painel (1) [x]
+    - Criar modal do upload de anais (2) [x]
+- União do Front-end com Back-end (1) [x]
+- Versão Mobile(1) []
+
 
 ## Feature
-- PDF Viewer (3) []
+- PDF Viewer (3) [x]
+
+## Details
+- Consistência dos dados de Update e Delete (3) [x]
+
+## Segurança
+- Segurança nos Inputs (1) []
+- Segurança no envio de formulários (1) []
+    - ***Prompt ChatGPT: como ter segurança no envio de formulários usando PHP, cite fontes***
+
+## Testes
+- Tratamento de Exceções eficientes (1) []
+- Testes Unitários (2) []
+- Testes usando Cypress (2) []
+- Testes de Integração (3) []
 
 ---
 
@@ -52,20 +67,13 @@
 
 ---
 
-# Build
+---
 
-## BD Login/Signin
-<p>Criação do banco de dados no mysql, execute esse comando</p>
-
-```sql
--- Crie uma Database sistema login
-CREATE DATABASE sistema_login;
-
-
--- Copie e cole esse comando no console do phpmyadmin na database criada
-CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL
-);
-```
+# Todo - Otto Mozale
+- ~Criar página "Sobre"~ 
+- ~Mostrar Nome do Usuário Logado no painel~
+- ~Mudar a arquitetura de arquivos~
+- ~Adicionar filtros de consulta ao banco de dados~
+-  **Bugs de acesso aos arquivos do servidor**
+- Responsividade no index
+- Animação do InputText do Index
